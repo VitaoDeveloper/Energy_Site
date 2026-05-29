@@ -34,7 +34,7 @@ export default function Desafios() {
       <section className="topic-hero">
         <div className="topic-hero-bg" />
         <Link to="/" className="topic-back">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
             <path d="M19 12H5m6-6l-6 6 6 6" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
           Voltar
@@ -72,7 +72,7 @@ export default function Desafios() {
           <ul className="topic-list">
             <li><strong>Armazenamento de energia:</strong> baterias de larga escala e hidrogênio verde para compensar a intermitência.</li>
             <li><strong>Turbinas mais silenciosas:</strong> novos designs aerodinâmicos e revestimentos que reduzem o ruído das pás.</li>
-            <li><strong>Sistemas ant colisão:</strong> radares e câmeras com inteligência artificial que detectam aves e param as turbinas temporariamente.</li>
+            <li><strong>Sistemas anticolisão:</strong> radares e câmeras com inteligência artificial que detectam aves e param as turbinas temporariamente.</li>
             <li><strong>Reciclagem de pás:</strong> desenvolvimento de materiais compostos recicláveis e processos para reutilizar pás descartadas.</li>
             <li><strong>Turbinas flutuantes:</strong> tecnologia offshore que permite instalação em águas profundas, ampliando as áreas viáveis.</li>
           </ul>
@@ -87,14 +87,14 @@ export default function Desafios() {
         </div>
         <div className="topic-nav-bottom">
           <Link to="/vantagens" className="btn-outline">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               <path d="M19 12H5m6-6l-6 6 6 6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
             Anterior
           </Link>
           <Link to="/" className="btn-primary">
             Voltar ao início
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               <path d="M5 12h14m-6-6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </Link>

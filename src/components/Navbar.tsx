@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="nav-inner">
         <Link to="/" className="logo">
-          <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
             <circle cx="16" cy="16" r="15" fill="currentColor"/>
             <path d="M16 4L20 14L16 12L12 14Z" fill="#fff"/>
             <rect x="15" y="12" width="2" height="10" fill="#fff" rx="1"/>
@@ -22,7 +22,7 @@ export default function Navbar() {
               <a href="#sobre">O que é</a>
               <a href="#dados">Dados</a>
               <a href="#topicos">Tópicos</a>
-              <Link to="/" className="btn-nav">Saiba mais</Link>
+              <a href="#saiba-mais" className="btn-nav">Saiba mais</a>
             </>
           ) : (
             <>

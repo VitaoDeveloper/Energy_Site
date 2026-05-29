@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-brand">
           <Link to="/" className="logo">
-            <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none" aria-hidden="true">
               <circle cx="16" cy="16" r="15" fill="currentColor"/>
               <path d="M16 4L20 14L16 12L12 14Z" fill="#fff"/>
               <rect x="15" y="12" width="2" height="10" fill="#fff" rx="1"/>
@@ -19,9 +19,9 @@ export default function Footer() {
         <div className="footer-links">
           <div>
             <h4>Conteúdo</h4>
-            <Link to="/">O que é</Link>
-            <Link to="/">Dados mundiais</Link>
-            <Link to="/">Tópicos</Link>
+            <a href="/#sobre">O que é</a>
+            <a href="/#dados">Dados mundiais</a>
+            <a href="/#topicos">Tópicos</a>
           </div>
           <div>
             <h4>Navegue</h4>

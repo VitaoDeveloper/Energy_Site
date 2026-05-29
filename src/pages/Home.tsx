@@ -14,7 +14,7 @@ const stats = [
 const features = [
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
         <path d="M12 3v3m0 0a4 4 0 0 1 4 4m-4-4a4 4 0 0 0-4 4m4 0v12" strokeLinecap="round"/>
         <circle cx="12" cy="10" r="3"/>
       </svg>
@@ -25,7 +25,7 @@ const features = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
@@ -35,7 +35,7 @@ const features = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
         <path d="M22 12h-4l-3 9L9 3l-3 9H2" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
     ),
@@ -45,7 +45,7 @@ const features = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
         <rect x="2" y="3" width="20" height="14" rx="2"/>
         <path d="M8 21h8m-4-4v4" strokeLinecap="round"/>
       </svg>
@@ -99,7 +99,7 @@ export default function Home() {
         button={
           <a href="https://pt.wikipedia.org/wiki/Energia_e%C3%B3lica" target="_blank" rel="noopener noreferrer" className="btn-primary btn-large">
             Ler artigo completo
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               <path d="M5 12h14m-6-6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </a>

@@ -7,7 +7,7 @@ export default function TiposTurbinas() {
       <section className="topic-hero">
         <div className="topic-hero-bg" />
         <Link to="/" className="topic-back">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
             <path d="M19 12H5m6-6l-6 6 6 6" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
           Voltar
@@ -30,7 +30,7 @@ export default function TiposTurbinas() {
           <div className="compare-grid">
             <div className="compare-card">
               <div className="compare-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                   <path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11m16-11v11" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
@@ -45,7 +45,7 @@ export default function TiposTurbinas() {
             </div>
             <div className="compare-card">
               <div className="compare-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                   <path d="M2 12c0 5.5 4.5 10 10 10s10-4.5 10-10S17.5 2 12 2" strokeLinecap="round"/>
                   <path d="M12 2v10l8 4" strokeLinecap="round"/>
                 </svg>
@@ -90,14 +90,14 @@ export default function TiposTurbinas() {
         </div>
         <div className="topic-nav-bottom">
           <Link to="/como-funciona" className="btn-outline">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               <path d="M19 12H5m6-6l-6 6 6 6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
             Anterior
           </Link>
           <Link to="/vantagens" className="btn-primary">
             Próximo: Vantagens
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               <path d="M5 12h14m-6-6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </Link>

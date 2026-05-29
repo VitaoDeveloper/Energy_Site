@@ -7,7 +7,7 @@ export default function ComoFunciona() {
       <section className="topic-hero">
         <div className="topic-hero-bg" />
         <Link to="/" className="topic-back">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
             <path d="M19 12H5m6-6l-6 6 6 6" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
           Voltar
@@ -82,7 +82,7 @@ export default function ComoFunciona() {
           <Link to="/" className="btn-outline">Início</Link>
           <Link to="/tipos" className="btn-primary">
             Próximo: Tipos de turbinas
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               <path d="M5 12h14m-6-6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </Link>
