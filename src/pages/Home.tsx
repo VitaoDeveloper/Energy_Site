@@ -82,19 +82,19 @@ export default function Home() {
 
       <Stats
         badge="Impacto global"
-        title="Energia eólica no mundo<br />em números"
+        title="Energia eólica no mundo em números"
         stats={stats}
       />
 
       <Features
         badge="Tópicos"
-        title="Entenda tudo sobre<br />energia eólica"
+        title="Entenda tudo sobre energia eólica"
         features={features}
       />
 
       <CTA
         badge="Aprofunde-se"
-        title="A energia do futuro<br />sopra nos ventos"
+        title="A energia do futuro sopra nos ventos"
         subtitle="A energia eólica é uma das fontes que mais cresce no mundo. Quer saber mais sobre como ela funciona na prática?"
         button={
           <a href="https://pt.wikipedia.org/wiki/Energia_e%C3%B3lica" target="_blank" rel="noopener noreferrer" className="btn-primary btn-large">
