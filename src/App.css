@@ -215,64 +215,77 @@
   z-index: 1;
 }
 
-.turbine {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -10px;
-  margin-left: -10px;
+.turbine-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
 }
 
-.blade {
-  position: absolute;
-  width: 6px;
-  height: 160px;
-  background: linear-gradient(to top, var(--green-deep), var(--sky-blue));
-  border-radius: 999px;
-  transform-origin: bottom center;
-  opacity: 0.7;
-  top: -160px;
-  left: -3px;
+.turbine-svg {
+  width: 200px;
+  height: auto;
+  transform: perspective(800px) rotateY(-4deg);
+  filter: drop-shadow(0 4px 12px rgba(15,107,58,0.12));
+  transition: transform 0.8s ease;
 }
 
-.blade-1 { transform: rotate(0deg); animation: spin 4s linear infinite; }
-.blade-2 { transform: rotate(120deg); animation: spin 4s linear infinite; }
-.blade-3 { transform: rotate(240deg); animation: spin 4s linear infinite; }
+.turbine-svg:hover {
+  transform: perspective(800px) rotateY(0deg);
+}
+
+/* Rotor animation */
+.rotor {
+  animation: spin 6s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
 
 @keyframes spin {
+  from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
-.tower {
-  width: 4px;
-  height: 120px;
-  background: linear-gradient(to top, #94a3b8, #cbd5e1);
-  border-radius: 999px;
+/* Shadow pulse */
+.shadow-pulse {
+  animation: shadowPulse 4s ease-in-out infinite;
 }
 
-.base-ring {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: var(--green-deep);
-  margin-top: -2px;
+@keyframes shadowPulse {
+  0%, 100% { opacity: 0.06; transform: scaleX(1); }
+  50% { opacity: 0.14; transform: scaleX(1.15); }
 }
 
-.wind-line {
-  position: absolute;
-  height: 2px;
-  background: linear-gradient(to right, transparent, var(--sky-mid), transparent);
-  border-radius: 2px;
-  opacity: 0.3;
+/* Wind sweeps */
+.wind-sweeps {
+  opacity: 0.4;
 }
 
-.wind-line-1 { width: 200px; top: 20%; right: 0; animation: wind 3s ease-in-out infinite; }
-.wind-line-2 { width: 140px; top: 40%; right: 20%; animation: wind 3s ease-in-out infinite 0.8s; }
-.wind-line-3 { width: 100px; top: 65%; right: 10%; animation: wind 3s ease-in-out infinite 1.6s; }
+.sweep {
+  stroke-dasharray: 80;
+  stroke-dashoffset: 80;
+}
 
-@keyframes wind {
-  0%, 100% { opacity: 0.15; transform: translateX(0); }
-  50% { opacity: 0.5; transform: translateX(30px); }
+.sweep-1 {
+  animation: sweep 3.5s ease-out infinite;
+}
+
+.sweep-2 {
+  animation: sweep 3.5s ease-out infinite 1.2s;
+}
+
+.sweep-3 {
+  animation: sweep 3.5s ease-out infinite 2.4s;
+}
+
+@keyframes sweep {
+  0% { stroke-dashoffset: 80; opacity: 0; }
+  30% { opacity: 0.5; }
+  70% { opacity: 0.5; }
+  100% { stroke-dashoffset: -40; opacity: 0; }
 }
 
 /* ── Hero Logos ── */
@@ -594,16 +607,15 @@
     right: auto;
     top: auto;
     transform: none;
-    width: 200px;
-    height: 240px;
+    width: 180px;
+    height: 220px;
     margin-top: 40px;
   }
 
-  .blade { height: 100px; top: -100px; }
-  .tower { height: 80px; }
-  .wind-line-1 { width: 120px; }
-  .wind-line-2 { width: 80px; }
-  .wind-line-3 { width: 60px; }
+  .turbine-svg {
+    width: 140px;
+    transform: perspective(600px) rotateY(-2deg);
+  }
 
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
