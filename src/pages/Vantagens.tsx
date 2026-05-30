@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 const benefits = [
   {
@@ -37,6 +38,7 @@ const benefits = [
 export default function Vantagens() {
   return (
     <>
+      <Navbar />
       <section className="topic-hero">
         <div className="topic-hero-bg" />
         <Link to="/" className="topic-back">

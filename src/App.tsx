@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import ComoFunciona from './pages/ComoFunciona'
 import TiposTurbinas from './pages/TiposTurbinas'
@@ -12,48 +11,23 @@ export default function App() {
     <Routes>
       <Route
         path="/"
-        element={
-          <>
-            <Navbar />
-            <Home />
-          </>
-        }
+        element={<Home />}
       />
       <Route
         path="/como-funciona"
-        element={
-          <>
-            <Navbar />
-            <ComoFunciona />
-          </>
-        }
+        element={<ComoFunciona />}
       />
       <Route
         path="/tipos"
-        element={
-          <>
-            <Navbar />
-            <TiposTurbinas />
-          </>
-        }
+        element={<TiposTurbinas />}
       />
       <Route
         path="/vantagens"
-        element={
-          <>
-            <Navbar />
-            <Vantagens />
-          </>
-        }
+        element={<Vantagens />}
       />
       <Route
         path="/desafios"
-        element={
-          <>
-            <Navbar />
-            <Desafios />
-          </>
-        }
+        element={<Desafios />}
       />
     </Routes>
   )

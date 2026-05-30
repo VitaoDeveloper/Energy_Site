@@ -1,4 +1,5 @@
 import Hero from '../components/Hero'
+import Navbar from '../components/Navbar'
 import Stats from '../components/Stats'
 import Features from '../components/Features'
 import CTA from '../components/CTA'
@@ -59,6 +60,7 @@ const features = [
 export default function Home() {
   return (
     <>
+      <Navbar />
       <Hero
         badge="Energia renovável"
         title={<>O que é energia<br /><span className="gradient-text">eólica?</span></>}

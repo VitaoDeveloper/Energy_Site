@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 const challenges = [
   {
@@ -31,6 +32,7 @@ const challenges = [
 export default function Desafios() {
   return (
     <>
+      <Navbar />
       <section className="topic-hero">
         <div className="topic-hero-bg" />
         <Link to="/" className="topic-back">
