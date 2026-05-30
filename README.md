@@ -18,7 +18,7 @@
 
 ---
 
-## 📖 Sobre | About
+## Sobre | About
 
 **🇧🇷 PT:** VentoBR é um site educacional que explica de forma simples e visual os fundamentos da energia eólica: como funciona, tipos de turbinas, vantagens e desafios. Ideal para estudantes, curiosos e qualquer pessoa interessada em energias renováveis.
 
@@ -26,7 +26,7 @@
 
 ---
 
-## 🚀 Tecnologias | Tech Stack
+## Tecnologias | Tech Stack
 
 | Tecnologia / Technology   | Versão / Version |
 | ------------------------- | ---------------- |
@@ -38,7 +38,7 @@
 
 ---
 
-## 📂 Estrutura | Structure
+## Estrutura | Structure
 
 ```
 src/
@@ -64,7 +64,7 @@ src/
 
 ---
 
-## 🛠️ Como rodar | Getting Started
+## Como rodar | Getting Started
 
 ```bash
 # Clone o repositório | Clone the repository
@@ -86,7 +86,7 @@ pnpm preview
 
 ---
 
-## 📄 Páginas | Pages
+## Páginas | Pages
 
 | Rota / Route             | Conteúdo / Content                         |
 | ------------------------ | ------------------------------------------ |
@@ -98,7 +98,7 @@ pnpm preview
 
 ---
 
-## 🎨 Funcionalidades | Features
+## Funcionalidades | Features
 
 - **Turbina SVG animada** — rotação 3D com sweeps de vento
 - **Design responsivo** — adaptado para desktop e mobile
@@ -108,7 +108,7 @@ pnpm preview
 
 ---
 
-## 📚 Fontes | References
+## Fontes | References
 
 - [Wikipedia — Energia eólica](https://pt.wikipedia.org/wiki/Energia_e%C3%B3lica)
 - [IRENA — Wind Energy](https://www.irena.org/Energy-Transition/Technology/Wind-energy)
@@ -116,7 +116,7 @@ pnpm preview
 
 ---
 
-## 👨‍💻 Autor | Author
+## Autor | Author
 
 Projeto pessoal criado para aprendizado e portfólio.  
 _Personal project created for learning and portfolio._
