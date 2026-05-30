@@ -22,7 +22,7 @@ const features = [
     ),
     title: 'Como funciona',
     desc: 'O vento gira as pás da turbina, que acionam um gerador. A energia cinética é convertida em eletricidade sem emissão de poluentes.',
-    to: '/como-funciona',
+    to: '/how-works',
   },
   {
     icon: (
@@ -32,7 +32,7 @@ const features = [
     ),
     title: 'Tipos de turbinas',
     desc: 'Turbinas onshore (em terra) e offshore (no mar). As offshore capturam ventos mais fortes e constantes, com maior capacidade de geração.',
-    to: '/tipos',
+    to: '/types',
   },
   {
     icon: (
@@ -42,7 +42,7 @@ const features = [
     ),
     title: 'Vantagens',
     desc: 'Fonte inesgotável, não polui, baixo custo operacional, gera empregos verdes e reduz dependência de combustíveis fósseis.',
-    to: '/vantagens',
+    to: '/benefits',
   },
   {
     icon: (
@@ -53,7 +53,7 @@ const features = [
     ),
     title: 'Desafios',
     desc: 'Intermitência do vento, impacto visual e sonoro, necessidade de áreas extensas e investimento inicial elevado.',
-    to: '/desafios',
+    to: '/challenges',
   },
 ]
 

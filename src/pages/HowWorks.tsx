@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
-export default function ComoFunciona() {
+export default function HowWorks() {
   return (
     <>
       <Navbar />
@@ -82,7 +82,7 @@ export default function ComoFunciona() {
         </div>
         <div className="topic-nav-bottom">
           <Link to="/" className="btn-outline">Início</Link>
-          <Link to="/tipos" className="btn-primary">
+          <Link to="/types" className="btn-primary">
             Próximo: Tipos de turbinas
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               <path d="M5 12h14m-6-6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round"/>

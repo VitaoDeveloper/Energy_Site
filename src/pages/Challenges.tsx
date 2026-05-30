@@ -29,7 +29,7 @@ const challenges = [
   },
 ]
 
-export default function Desafios() {
+export default function Challenges() {
   return (
     <>
       <Navbar />
@@ -88,7 +88,7 @@ export default function Desafios() {
           </div>
         </div>
         <div className="topic-nav-bottom">
-          <Link to="/vantagens" className="btn-outline">
+          <Link to="/benefits" className="btn-outline">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               <path d="M19 12H5m6-6l-6 6 6 6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>

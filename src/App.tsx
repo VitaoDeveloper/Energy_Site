@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
-import ComoFunciona from './pages/ComoFunciona'
-import TiposTurbinas from './pages/TiposTurbinas'
-import Vantagens from './pages/Vantagens'
-import Desafios from './pages/Desafios'
+import HowWorks from './pages/HowWorks'
+import TurbinesTypes from './pages/TurbinesTypes'
+import Benefits from './pages/Benefits'
+import Challenges from './pages/Challenges'
 
 export default function App() {
   return (
@@ -14,20 +14,20 @@ export default function App() {
         element={<Home />}
       />
       <Route
-        path="/como-funciona"
-        element={<ComoFunciona />}
+        path="/how-works"
+        element={<HowWorks />}
       />
       <Route
-        path="/tipos"
-        element={<TiposTurbinas />}
+        path="/types"
+        element={<TurbinesTypes />}
       />
       <Route
-        path="/vantagens"
-        element={<Vantagens />}
+        path="/benefits"
+        element={<Benefits />}
       />
       <Route
-        path="/desafios"
-        element={<Desafios />}
+        path="/challenges"
+        element={<Challenges />}
       />
     </Routes>
   )

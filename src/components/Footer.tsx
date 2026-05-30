@@ -25,10 +25,10 @@ export default function Footer() {
           </div>
           <div>
             <h4>Navegue</h4>
-            <Link to="/como-funciona">Como funciona</Link>
-            <Link to="/tipos">Tipos de turbinas</Link>
-            <Link to="/vantagens">Vantagens</Link>
-            <Link to="/desafios">Desafios</Link>
+            <Link to="/how-works">Como funciona</Link>
+            <Link to="/types">Tipos de turbinas</Link>
+            <Link to="/benefits">Vantagens</Link>
+            <Link to="/challenges">Desafios</Link>
           </div>
           <div>
             <h4>Fontes</h4>
